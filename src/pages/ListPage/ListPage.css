@@ -1,0 +1,25 @@
+.list-page {
+    padding: 42px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list-page__title {
+    font-size: 34px;
+    margin-bottom: 26px;
+    margin-left: 20px;
+}
+
+.list-page ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background-color: rgb(194, 194, 226);
+    padding: 10px 20px;
+    
+}
+.list-page ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 95);
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+
+.movies__item {
+    margin-bottom: 21px;
+}
+
+@media screen and (max-width: 688px){
+    .movies__item{
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

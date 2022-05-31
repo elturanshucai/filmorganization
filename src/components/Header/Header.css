@@ -1,0 +1,30 @@
+.header {
+    background: #496DDB;
+    padding: 20px calc(50% - 500px) 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: 40px;
+}
+.icon{
+    display: none;
+}
+
+@media screen and (max-width: 688px){
+    .icon{
+        display: block;
+        height: 30px;
+        margin-top: 8px;
+        margin-right: 40px;
+        background-color: #FFEEDB;
+        color: #496DDB;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
